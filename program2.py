@@ -1,9 +1,9 @@
 def decode_message( s: str, p: str) -> bool:
 
-s_index = 0 
-p_index = 0  
+        s_index = 0 
+        p_index = 0  
 
-    while s_index < len(s) and p_index < len(p):
+        while s_index < len(s) and p_index < len(p):
         if p[p_index] == '*':
             # If the current symbol in the decoder key is '*', it matches any sequence of letters
             # Move to the next character in the decoder key
