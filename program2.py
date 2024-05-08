@@ -7,7 +7,6 @@ def decode_message( s: str, p: str) -> bool:
                 if p[p_index] == '*':
                  p_index += 1
                 
-                # If '*' is the last symbol in the decoder key, it can match the remaining characters in the secret message
                 if p_index == len(p):
                         return True
                 
