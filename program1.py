@@ -22,5 +22,5 @@ class Solution:
                 if grid[i][j] == "L" and not visited[i][j]:
                     explore_island(i, j, visited)
                     island_count += 1
-        print(island_count)
+        # print(island_count)
         return island_count
