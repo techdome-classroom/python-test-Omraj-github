@@ -17,8 +17,6 @@ def decode_message( s: str, p: str) -> bool:
                 while s_index < len(s) and s[s_index] != p[p_index]:
                         s_index += 1
                         elif p[p_index] == '?':
-                        # If the current symbol in the decoder key is '?', it can match any single letter
-                        # Move to the next character in both the secret message and the decoder key
                         s_index += 1
                         p_index += 1
                         elif s[s_index] == p[p_index]:
