@@ -14,7 +14,7 @@ class Solution:
         if not grid:
         return 0            
             
-        num_row, n_col = len(grid), len(grid[0])
+        nrow, ncol = len(grid), len(grid[0])
         visited([false][true])
         def count(row, col, count, visited):
 
