@@ -5,8 +5,6 @@ def decode_message( s: str, p: str) -> bool:
 
         while s_index < len(s) and p_index < len(p):
                 if p[p_index] == '*':
-                # If the current symbol in the decoder key is '*', it matches any sequence of letters
-                # Move to the next character in the decoder key
                  p_index += 1
                 
                 # If '*' is the last symbol in the decoder key, it can match the remaining characters in the secret message
