@@ -10,7 +10,8 @@ class Solution:
                 nrow, ncol = row+dr, col+dc
                 if  0 <= nrow < len(grid) & 0 <= ncol < len(grid[0]):
                     islandsExp(nrow, ncol, visited)
-                    
+        if not grid:
+        return 0            
             
         def count(row, col, count, visited):
 
