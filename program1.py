@@ -17,7 +17,8 @@ class Solution:
         nrow, ncol = len(grid), len(grid[0])
         visited = [ [false]*ncol for_in range(nrow)]
 
-        
+        island_count = 0
+        for i in range(g)
         def count(row, col, count, visited):
 
         return 0
