@@ -15,7 +15,7 @@ class Solution:
         return 0            
             
         nrow, ncol = len(grid), len(grid[0])
-        visited = ([false]*ncol [true])
+        visited = ([false]*ncol [false]*nrow)
         def count(row, col, count, visited):
 
         return 0
