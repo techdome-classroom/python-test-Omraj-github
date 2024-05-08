@@ -8,7 +8,7 @@ class Solution:
 
             for dr, dc in directions:
                 nrow = row+dr, ncol = 
-                islandsExp(, col+dc, visited)
+                islandsExp(nrow, col+dc, visited)
 
 
         return 0
