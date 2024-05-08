@@ -13,7 +13,7 @@ class Solution:
         if not grid:
         return 0            
             
-        num_row, n_col = row+dr, col+dc
+        num_row, n_col = len(grid), len(grid[0])
         def count(row, col, count, visited):
 
         return 0
