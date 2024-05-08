@@ -11,7 +11,7 @@ def decode_message( s: str, p: str) -> bool:
                         return True
                 
                 while s_index < len(s) and s[s_index] != p[p_index]:
-                          s_index += 1
+                        s_index += 1
                         elif p[p_index] == '?':
                         s_index += 1
                         p_index += 1
