@@ -7,8 +7,8 @@ class Solution:
             visited[row][col] = True
 
             for dr, dc in directions:
-                nrow = row+dr, ncol = 
-                islandsExp(nrow, col+dc, visited)
+                nrow = row+dr, ncol = col+dc
+                islandsExp(nrow, ncol, visited)
 
 
         return 0
