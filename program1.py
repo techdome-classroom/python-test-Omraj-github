@@ -45,25 +45,6 @@ class Solution:
 
                      return island_count
 
-                     # Test cases
-                     solution= Solution()
-                     grid1= [
-    ["L", "L", "L", "L", "W"],
-    ["L", "L", "W", "L", "W"],
-    ["L", "L", "W", "W", "W"],
-    ["W", "W", "W", "W", "W"],
-
-
-]
-
-    grid2 = [
-["L", "L", "W", "W", "W"],
-["L", "L", "W", "W", "W"],
-["W", "W", "L", "W", "W"],
-["W", "W", "W", "L", "L"],
-]
-
-    print(solution.getTotalIsles(grid1))  # Output: 1
-    print(solution.getTotalIsles(grid2))  # Output: 3
+                
 
         return 0
