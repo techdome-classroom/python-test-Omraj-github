@@ -22,6 +22,3 @@ def decode_message(s: str, p: str) -> bool:
             return False
 
     return s_index == len(s) and p_index == len(p)
-
-
-print(decode_message("aa", "a"))
