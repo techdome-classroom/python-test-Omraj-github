@@ -2,13 +2,13 @@ class Solution:
    
     def getTotalIsles(self, grid: list[list[str]]) -> int:
     #    write your code here
-       def explore_island(row, col, visited):
+       def explore_island(row, col, vis):
             directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
-            visited[row][col] = True
+            vis[row][col] = True
             for dr, dc in directions:
                 new_row, new_col = row + dr, col + dc
                 if 0 <= new_row < len(grid) and 0 <= new_col < len(grid[0]) and grid[new_row][new_col] == "L" and not visited[new_row][new_col]:
-                    explore_island(new_row, new_col, visited)
+                    explore_island(new_row, new_col, vis)
 
         if not grid:
             return 0
