@@ -21,4 +21,5 @@ def decode_message(s: str, p: str) -> bool:
         else:
             return False
 
+    print(s_index == len(s) and p_index == len(p))
     return s_index == len(s) and p_index == len(p)
