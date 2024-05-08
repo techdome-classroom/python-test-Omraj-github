@@ -6,6 +6,6 @@ class Solution:
             directions = [(-1,0),(0,1), (1, 0),(0, -1)]
             visited[row][col] = True
             for dr, dc in directions:
-                islandsExp(row+dr, col+dc)
+                islandsExp(row+dr, col+dc, visited)
 
         return 0
