@@ -20,7 +20,6 @@ def decode_message( s: str, p: str) -> bool:
                         s_index += 1
                         p_index += 1
                         elif s[s_index] == p[p_index]:
-                        # If the characters match, move to the next character in both the secret message and the decoder key
                         s_index += 1
                         p_index += 1
                         else:
