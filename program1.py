@@ -8,6 +8,7 @@ class Solution:
 
             for dr, dc in directions:
                 nrow = row+dr, ncol = col+dc
+                if  0<=nrow<=len(grid) & 
                 islandsExp(nrow, ncol, visited)
 
 
