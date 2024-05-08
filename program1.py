@@ -1,7 +1,7 @@
 class Solution:
-   
+
     def getTotalIsles(self, grid: list[list[str]]) -> int:
-    #    write your code here
+        #    write your code here
         def explore_island(row, col, vis):
             directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
             vis[row][col] = True
