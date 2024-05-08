@@ -25,7 +25,6 @@ def decode_message( s: str, p: str) -> bool:
                         else:
                 return False
     
-        # If both indices reached the end of their respective strings, the decoder key matches the message
         return s_index == len(s) and p_index == len(p)
 
   
